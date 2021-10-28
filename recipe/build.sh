@@ -4,6 +4,7 @@ set -ex
 
 if [[ $target_platform == linux-* ]]; then
     echo "target_link_libraries(SvtAv1EncApp rt)" >> Source/App/EncApp/CMakeLists.txt
+    sed -i.bak -e 's,-lpthread,-lpthread -lrt,' Source/Lib/Encoder/CMakeLists.txt
 fi
 
 cd Build
