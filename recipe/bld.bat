@@ -1,6 +1,6 @@
 @echo on
 
-cd ..\Build
+cd Build
 
 cmake -G "NMake Makefiles"       ^
       -DCMAKE_BUILD_TYPE=Release ^
