@@ -2,9 +2,9 @@
 
 cd ..\Build
 
-cmake -G "NMake Makefiles"       ^ 
+cmake -G "NMake Makefiles"       ^
       -DCMAKE_BUILD_TYPE=Release ^
-      -DBUILD_SHARED_LIBS=ON     ^ 
+      -DBUILD_SHARED_LIBS=ON     ^
       -DNATIVE=OFF               ^
       ..
 
