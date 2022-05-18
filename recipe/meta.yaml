@@ -10,7 +10,10 @@ source:
   sha256: 1c211b944ac83ef013fe91aee96c01289da4e3762c1e2f265449f3a964f8e4bc
 
 build:
-  number: 0
+  number: 1
+  run_exports:
+    # This is just a guess
+    - {{ pin_subpackage('svt-av1', max_pin='x.x') }}
 
 requirements:
   build:
