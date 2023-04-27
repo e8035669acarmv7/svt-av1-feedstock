@@ -1,11 +1,11 @@
-About svt-av1
-=============
+About svt-av1-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/svt-av1-feedstock/blob/main/LICENSE.txt)
 
 Home: https://gitlab.com/AOMediaCodec/SVT-AV1
 
 Package license: BSD-2-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/svt-av1-feedstock/blob/main/LICENSE.txt)
 
 Summary: The Scalable Video Technology for AV1 encoder/decoder library.
 
