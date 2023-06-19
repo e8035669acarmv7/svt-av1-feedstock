@@ -1,5 +1,5 @@
 {% set name = "svt-av1" %}
-{% set version = "1.5.0" %}
+{% set version = "1.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://gitlab.com/AOMediaCodec/SVT-AV1/-/archive/v{{ version }}/SVT-AV1-v{{ version }}.tar.gz
-  sha256: 64e27b024eb43e4ba4e7b85584e0497df534043b2ce494659532c585819d0333
+  sha256: 3bc207247568ac713245063555082bfc905edc31df3bf6355e3b194cb73ad817
 
 build:
   number: 0
